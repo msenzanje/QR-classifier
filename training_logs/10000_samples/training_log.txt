@@ -1,0 +1,8 @@
+[2500/2500 04:50, Epoch 5/5]
+Epoch	Training Loss	Validation Loss	Accuracy
+1	0.625800	0.591850	0.711000
+2	0.587000	0.579037	0.710500
+3	0.573700	0.568156	0.711500
+4	0.567100	0.562953	0.715000
+5	0.564000	0.561297	0.712500
+TrainOutput(global_step=2500, training_loss=0.5835331176757812, metrics={'train_runtime': 291.2522, 'train_samples_per_second': 137.338, 'train_steps_per_second': 8.584, 'total_flos': 3.09967958458368e+18, 'train_loss': 0.5835331176757812, 'epoch': 5.0})
