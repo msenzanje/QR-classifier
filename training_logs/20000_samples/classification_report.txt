@@ -1,0 +1,10 @@
+ Classification Report:
+
+              precision    recall  f1-score   support
+
+    Phishing       0.89      0.30      0.45      1572
+  Legitimate       0.68      0.98      0.80      2428
+
+    accuracy                           0.71      4000
+   macro avg       0.79      0.64      0.63      4000
+weighted avg       0.77      0.71      0.67      4000
