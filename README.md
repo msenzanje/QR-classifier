@@ -60,7 +60,7 @@ To preserve learned representations and minimize overfitting given the dataset s
 * **Loss Function:** Cross-Entropy Loss (applied to raw logits; probabilities derived internally).
 
 ## Evaluation Metrics
-We evaluate the fine-tuned Vision Transformer using standard binary classification metrics:
+We evaluate the Vision Transformer using standard binary classification metrics:
 * **Accuracy**
 * **Precision & Recall**
 * **F1-Score**
@@ -71,9 +71,9 @@ We evaluate the fine-tuned Vision Transformer using standard binary classificati
 * `QR_Translator.ipynb`: Generates QR code images from the raw URL dataset.
 * `ViT_Training.ipynb`: Main notebook for loading data, preprocessing, fine-tuning the ViT model, and evaluating performance.
 * `Colab_Training.ipynb`: Adapted training notebook optimized for Google Colab environments.
-* `training_logs`: A directory containing training
+* `training_logs`: A directory containing training data such as the tranining logs, confusion matrices, and more.
 * `colab_setup.png`: Image illustrating Colab directory setup
-* `ViT_Explainability`:
+* `ViT_Explainability`: A notebook containing Grad-CAM analysis and Attention Rollout to visualize what the model focuses on during evaluation.
 
 ## Results and Visualizations
 
@@ -85,3 +85,20 @@ We evaluate the fine-tuned Vision Transformer using standard binary classificati
 * **Dataset:** PhiUSIIL Phishing URL Dataset.
 * **Transformer Architecture:** Vaswani et al. (2017). *"Attention Is All You Need"*. Google Brain.
 * **Vision Transformer:** Dosovitskiy et al. (2020). *"An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"*.
+
+## Contact Us
+**Aaron Loera**    
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaronloera324/)
+
+**Melusi Senzanje**   
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://melusi.netlify.app)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melusi-senzanje-5b26102a4/)
+
+**Anna Arsienko**
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anna-arseienko/)
+
+**Matthew Emanuel**     
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthew-emanuel-1b168a340/)
+
+**Hugo Marques**
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugomarquesnob/)
