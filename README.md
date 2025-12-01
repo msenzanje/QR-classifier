@@ -77,9 +77,16 @@ We evaluate the Vision Transformer using standard binary classification metrics:
 
 ## Results and Visualizations
 
-
 ## Limitations and Future Work
+* **Computing Power**: Due to the limited computing resources, we could only fine-tune the classification head, a small portion of the model. As a result, it's possible the model did not reach its maximum achievable performance.
+* **Transformer Architecture Regarding Explainability**: Vision Transformers rely heavily on global self-attention from the initial layers. This inherently means the model utilizes the entire QR code for classification. Thus, there are no single local patterns that inform the Transformer if a QR code is malicious or legitimate; it’s the entirety of the image.
+* **Fine-Tuning Deeper Layers:** Unfreezing deeper layers, such as encoding layers, could allow the model to learn QR-specific representations rather than relying on the patterns it has already learned from natural images. However, this would significantly increase the number of trainable parameters and thus require stronger computing resources.
+* **Exploring Specialized Architectures**: Implementing CNN/Transformer architecture could be beneficial in capturing both the local pixel-level features and global relationships that make up a QR code. While a CNN on its own may not be sufficiently suited to classify the QR code, it can process the image and pass the richer representations to the Transformer. The Transformer can then learn the global layout without needing to focus on low-level features. 
 
+## Interpretation of Model Performance
+* We successfully fine-tuned the ViT model to classify between legitimate and malicious QR images
+* The model reached a suitable accuracy of 85%, signifying that the model is capable of differentiation between legitimate and malicious codes
+* This demonstrates the viability of image-only QR threat detection and provided the groundwork for future secure QR-based authentication
 
 ## References
 * **Dataset:** PhiUSIIL Phishing URL Dataset.
@@ -94,7 +101,7 @@ We evaluate the Vision Transformer using standard binary classification metrics:
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melusisenzanje/)
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://melusi.netlify.app)
 
-**Anna Arsienko**     
+**Anna Arseienko**     
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anna-arseienko/)
 
 **Matthew Emanuel**     
