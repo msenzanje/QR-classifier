@@ -76,6 +76,8 @@ We evaluate the Vision Transformer using standard binary classification metrics:
 * `ViT_Explainability`: A notebook containing Grad-CAM analysis and Attention Rollout to visualize what the model focuses on during evaluation.
 
 ## Results and Visualizations
+![Confusion Matrix](https://raw.githubusercontent.com/msenzanje/QR-classifier/main/training_logs/all_samples_40_epochs/confusion_matrix.png)
+![Training Curves](https://raw.githubusercontent.com/msenzanje/QR-classifier/main/training_logs/all_samples_40_epochs/training_history.png)
 
 ## Limitations and Future Work
 * **Computing Power**: Due to the limited computing resources, we could only fine-tune the classification head, a small portion of the model. As a result, it's possible the model did not reach its maximum achievable performance.
