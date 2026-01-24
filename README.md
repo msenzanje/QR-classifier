@@ -92,7 +92,7 @@ We evaluate the Vision Transformer using standard binary classification metrics:
 * This demonstrates the viability of image-only QR threat detection and provided the groundwork for future secure QR-based authentication
 
 ## References
-* **Dataset:** PhiUSIIL Phishing URL Dataset.
+* **Dataset:** [PhiUSIIL Phishing URL Dataset](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset).
 * **Transformer Architecture:** Vaswani et al. (2017). *"Attention Is All You Need"*. Google Brain.
 * **Vision Transformer:** Dosovitskiy et al. (2020). *"An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"*.
 
