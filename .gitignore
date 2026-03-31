@@ -1,0 +1,6 @@
+# Directories
+qr_codes/
+
+# Files
+.claude
+Colab_Training.ipynb
